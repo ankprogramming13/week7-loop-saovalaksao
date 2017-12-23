@@ -9,8 +9,13 @@ int main() {
   // ตัวอย่างโปรแกรมที่ใช้ for
 
   int i = 0;
-  for (i = 0; i < 10; i+1) {
+  int a = 0;
+  for (i = 0; i < 10; i++) {
     cout << "Run from for" << endl;
+  }
+  while(a<10 ){
+    cout <<"Run from while" << endl;
+    a++;
   }
   cout << "************END FOR************" << endl;
 
